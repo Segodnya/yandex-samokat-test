@@ -12,7 +12,7 @@
 
 **Github Pages**
 
-Проект опубликован на [Github Pages](https://segodnya.github.io/)
+Проект опубликован на [Github Pages](https://segodnya.github.io/yandex-samokat-test/)
 
 **Макет**
 
