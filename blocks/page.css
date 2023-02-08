@@ -1,0 +1,34 @@
+.page {
+  min-width: 320px;
+  max-width: 1200px;
+  min-height: 100vh;
+  background-color: var(--color-bg-prim);
+  margin: 0 auto;
+  font-family: "Yandex Sans", Arial, sans-serif;
+  color: var(--color-tx-prim);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.link {
+  color: var(--color-tx-prim);
+  text-decoration: none;
+  display: inline;
+}
+.button {
+  background-color: var(--color-btn);
+  color: var(--color-tx-sec);
+  font-weight: 900;
+  border-radius: 18px;
+  border: none;
+}

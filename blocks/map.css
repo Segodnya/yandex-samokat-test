@@ -1,0 +1,17 @@
+.map {
+  margin: 0 auto;
+  padding: 120px 0 0;
+  width: 100%;
+  max-width: 920px;
+  background-color: var(--color-bg-sec);
+  border-radius: 56px;
+}
+
+.map__content {
+  width: 100%;
+  aspect-ratio: 1/1;
+  pointer-events: none;
+  border-radius: 56px;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
