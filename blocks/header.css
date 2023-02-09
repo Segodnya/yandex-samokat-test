@@ -5,6 +5,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  background-color: var(--color-bg-prim);
+  z-index: 1;
 }
 .header__logo {
   display: block;

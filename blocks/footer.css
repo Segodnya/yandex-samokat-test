@@ -3,14 +3,17 @@
   box-sizing: border-box;
   padding: 0 15px 55px;
   background-color: var(--color-bg-sec);
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+
   font-weight: 600;
   font-size: 13px;
 }
+.footer__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 @media screen and (max-width: 940px) {
-  .footer {
+  .footer__flex {
     flex-direction: column;
   }
 }

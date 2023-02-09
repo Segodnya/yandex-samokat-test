@@ -59,32 +59,36 @@
     </section>
 
     <section class="cards">
-      <div class="cards__card cards__card_type_iconed">
-        <img src="./images/cards__icon.svg" alt="route icon" class="cards__icon" />
-        <h2 class="card__title">Тариф Фикс</h2>
-        <p class="card__subtitle">Подойдет, если знаете точку назначения. Цена поездки фиксированная. Покажем её заранее.</p>
+      <div class="cards__column">
+        <div class="cards__card cards__card_type_iconed">
+          <img src="./images/cards__icon.svg" alt="route icon" class="cards__icon" />
+          <h2 class="card__title">Тариф Фикс</h2>
+          <p class="card__subtitle">Подойдет, если знаете точку назначения. Цена поездки фиксированная. Покажем её заранее.</p>
+        </div>
+        <div class="cards__card cards__card_type_dotted">
+          <h2 class="card__title">Опция «Ещё один самокат»</h2>
+          <p class="card__subtitle">Нужна, чтобы забронировать с одного телефона до трёх самокатов одновременно. Да, и такое бывает</p>
+        </div>
+        <div class="cards__card cards__card_type_inverse">
+          <h2 class="card__title">На чём едем?</h2>
+          <p class="card__subtitle">Ninebot Max Plus 2022 года выпуска. Красив и функционален. На его борту есть держатель для телефона с беспроводной зарядкой.</p>
+          <p class="card__subtitle">За 30 минут поездки зарядим ваш девайс на 40%</p>
+        </div>
       </div>
-      <div class="cards__card cards__card_type_iconed">
-        <img src="./images/rules-time.svg" alt="route icon" class="cards__icon" />
-        <h2 class="card__title">Тариф Поминутный</h2>
-        <p class="card__subtitle">Для прогулок по городу. Аренда: от 50 рублей + тариф от 7 рублей в минуту.</p>
-      </div>
-      <div class="cards__card cards__card_type_dotted">
-        <h2 class="card__title">Опция «Ещё один самокат»</h2>
-        <p class="card__subtitle">Нужна, чтобы забронировать с одного телефона до трёх самокатов одновременно. Да, и такое бывает</p>
-      </div>
-      <div class="cards__card cards__card_type_plus">
-        <img src="./images/plus-logo.png" alt="plus icon" class="cards__icon" />
-        <h2 class="card__title">Катайтесь с Плюсом</h2>
-        <p class="card__subtitle">Вернем 5% кешбэка баллами Плюса за каждую поездку. Кешбэк можно тратить в сервисах Яндекса</p>
-      </div>
-      <div class="cards__card cards__card_type_inverse">
-        <h2 class="card__title">На чём едем?</h2>
-        <p class="card__subtitle">Ninebot Max Plus 2022 года выпуска. Красив и функционален. На его борту есть держатель для телефона с беспроводной зарядкой.</p>
-        <p class="card__subtitle">За 30 минут поездки зарядим ваш девайс на 40%</p>
-      </div>
-      <div class="cards__card cards__card_type_photo">
-        <img src="./images/rider.jpeg" alt="boy rider on scooter" class="cards__photo" />
+      <div class="cards__column">
+        <div class="cards__card cards__card_type_iconed">
+          <img src="./images/rules-time.svg" alt="route icon" class="cards__icon" />
+          <h2 class="card__title">Тариф Поминутный</h2>
+          <p class="card__subtitle">Для прогулок по городу. Аренда: от 50 рублей + тариф от 7 рублей в минуту.</p>
+        </div>
+        <div class="cards__card cards__card_type_plus">
+          <img src="./images/plus-logo.png" alt="plus icon" class="cards__plus-logo" />
+          <h2 class="card__title">Катайтесь с Плюсом</h2>
+          <p class="card__subtitle">Вернем 5% кешбэка баллами Плюса за каждую поездку. Кешбэк можно тратить в сервисах Яндекса</p>
+        </div>
+        <div class="cards__card cards__card_type_photo">
+          <img src="./images/rider.jpeg" alt="boy rider on scooter" class="cards__photo" />
+        </div>
       </div>
     </section>
 
@@ -109,42 +113,50 @@
       </div>
     </section>
 
+    <section class="rules"></section>
+
     <section class="map">
-      <h2 class="section__title">Где есть самокаты</h2>
-      <p class="section__text section__text_place_map">
-        Самокаты постепенно появляются в разных районах Москвы. Карта в приложении покажет, где взять самокат — и на какой парковке его можно оставить
-      </p>
-      <div class="map__content">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577317.9718771386!2d37.3855235!3d55.58202595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1675874659327!5m2!1sru!2sru"
-          width="100%"
-          height="100%"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+      <div class="wrapper">
+        <h2 class="section__title">Где есть самокаты</h2>
+        <p class="max__text">Самокаты постепенно появляются в разных районах Москвы. Карта в приложении покажет, где взять самокат — и на какой парковке его можно оставить</p>
+        <div class="map__content">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577317.9718771386!2d37.3855235!3d55.58202595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1675874659327!5m2!1sru!2sru"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </div>
     </section>
 
     <section class="download">
-      <div class="download__content">
-        <h2 class="section__title">Скачайте приложение</h2>
-        <p class="download__text">Наведите камеру на QR-код для загрузки приложения</p>
-        <img src="./images/qr.svg" alt="qr code to download an app" class="download__qr" />
+      <div class="wrapper">
+        <div class="download__content">
+          <h2 class="section__title">Скачайте приложение</h2>
+          <p class="download__text">Наведите камеру на QR-код для загрузки приложения</p>
+          <img src="./images/qr.svg" alt="qr code to download an app" class="download__qr" />
+        </div>
       </div>
     </section>
 
     <footer class="footer">
-      <p class="footer__license">
-        Электросамокаты Яндекс Go — сервис аренды электросамокатов на условиях, указанных на <a href="#" class="link">yandex.ru/legal/samokaty</a>. Дополнительная опция «Абонемент на самокаты»
-        оформляется на условиях документа «Условия подписки на Яндекс Плюс» (<a href="#" class="link">yandex.ru/legal/yandex_plus_conditions</a>); есть ограничения, подробнее см. здесь:
-        <a href="#" class="link">yandex.ru/legal/yandex_plus_opzii_list</a>. В групповой поездке можно арендовать не более 3 самокатов на одного пользователя. Условия подписки на Яндекс Плюс:
-        <a href="#" class="link">yandex.ru/legal/yandex_plus_conditions</a>. Условия программы лояльности «Яндекс Плюс Кешбэк»: <a href="#" class="link">yandex.ru/legal/plus_loyalty</a>. Пользователю
-        начисляется 5% кешбэка баллами, но не более 1000 баллов за одну поездку. Для получения и использования баллов требуется активная подписка Яндекс Плюс или иная, ее включающая. Баллы не являются
-        денежными средствами, при использовании баллов предоставляется скидка. 0+
-      </p>
-      <p class="footer__copyright">© 2023 ООО «Яндекс.Микромобильность»</p>
+      <div class="wrapper">
+        <div class="footer__flex">
+          <p class="footer__license">
+            Электросамокаты Яндекс Go — сервис аренды электросамокатов на условиях, указанных на <a href="#" class="link">yandex.ru/legal/samokaty</a>. Дополнительная опция «Абонемент на самокаты»
+            оформляется на условиях документа «Условия подписки на Яндекс Плюс» (<a href="#" class="link">yandex.ru/legal/yandex_plus_conditions</a>); есть ограничения, подробнее см. здесь:
+            <a href="#" class="link">yandex.ru/legal/yandex_plus_opzii_list</a>. В групповой поездке можно арендовать не более 3 самокатов на одного пользователя. Условия подписки на Яндекс Плюс:
+            <a href="#" class="link">yandex.ru/legal/yandex_plus_conditions</a>. Условия программы лояльности «Яндекс Плюс Кешбэк»: <a href="#" class="link">yandex.ru/legal/plus_loyalty</a>.
+            Пользователю начисляется 5% кешбэка баллами, но не более 1000 баллов за одну поездку. Для получения и использования баллов требуется активная подписка Яндекс Плюс или иная, ее включающая.
+            Баллы не являются денежными средствами, при использовании баллов предоставляется скидка. 0+
+          </p>
+          <p class="footer__copyright">© 2023 ООО «Яндекс.Микромобильность»</p>
+        </div>
+      </div>
     </footer>
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->

@@ -4,8 +4,8 @@
   background-image: url("../images/app.jpeg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  padding: 128px 10px 256px;
+  background-size: cover;
+  padding: 256px 10px;
   width: 100%;
 }
 .download__content {
