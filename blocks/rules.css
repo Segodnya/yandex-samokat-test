@@ -1,0 +1,145 @@
+.rules {
+  margin: 0 auto;
+  padding: 478px 0 558px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.rules__wrapper {
+  position: relative;
+  z-index: 0;
+  margin: 0 auto;
+  background-color: var(--color-bg-sec);
+  padding: 56px 0 177px 93px;
+  max-width: 1024px;
+  border-radius: 56px;
+}
+.rules__title {
+  margin: 0 0 64px;
+  font-weight: 900;
+  font-size: 64px;
+}
+.rules__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 96px;
+}
+.rules__item {
+  width: 362px;
+}
+.rules__icon {
+  width: 83px;
+  aspect-ratio: 1/1;
+  display: block;
+  object-fit: cover;
+  margin: 0 0 32px;
+}
+.rules__subtitle {
+  margin: 0 0 16px;
+  font-weight: 900;
+  font-size: 36px;
+}
+.rules__rule {
+  margin: 0;
+  font-weight: 600;
+  font-size: 22px;
+}
+.rules__card {
+  position: absolute;
+  z-index: 1;
+  bottom: -480px;
+  right: -60px;
+  box-sizing: border-box;
+  background-color: var(--color-bg-accent);
+  max-width: 566px;
+  padding: 83px;
+  border-radius: 56px;
+}
+.rules__text {
+  margin: 0;
+  font-weight: 600;
+  font-size: 32px;
+  color: var(--color-tx-sec);
+}
+
+@media screen and (max-width: 1280px) {
+  .rules {
+    padding: 0;
+  }
+  .rules__wrapper {
+    padding: 56px 177px 93px;
+    position: inherit;
+    display: flex;
+    flex-direction: column;
+  }
+  .rules__card {
+    position: inherit;
+    margin: 56px auto 0;
+  }
+  .swiper {
+    position: inherit;
+    margin: 0 auto 56px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .rules__wrapper {
+    padding: 56px 40px 93px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .rules {
+    margin: -72px auto 0;
+  }
+  .rules__wrapper {
+    padding: 456px 40px 796px;
+    position: relative;
+  }
+  .rules__list {
+    justify-content: flex-start;
+  }
+  .swiper {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+  }
+  .rules__card {
+    position: absolute;
+    z-index: 1;
+    bottom: 300px;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+  .rules__text {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .rules__title {
+    font-size: 42px;
+  }
+  .rules__item {
+    width: 100%;
+  }
+  .rules__subtitle {
+    font-size: 24px;
+  }
+  .rules__rule {
+    font-size: 18px;
+  }
+  .rules__card {
+    padding: 40px;
+  }
+  .rules__text {
+    font-size: 22px;
+  }
+}

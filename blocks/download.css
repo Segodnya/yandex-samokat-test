@@ -1,5 +1,5 @@
 .download {
-  margin: 0 auto;
+  margin: -72px auto 0;
   background-color: var(--color-bg-sec);
   background-image: url("../images/app.jpeg");
   background-position: center;
@@ -7,6 +7,7 @@
   background-size: cover;
   padding: 256px 10px;
   width: 100%;
+  box-sizing: border-box;
 }
 .download__content {
   max-width: 455px;
